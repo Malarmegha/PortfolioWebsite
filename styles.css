@@ -181,3 +181,10 @@ section {
   text-decoration: hotpink;
 }
 
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
